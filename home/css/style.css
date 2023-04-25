@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap');
+
+:root{
+    --white : #FFFFFF;
+    --blue : #30CFD0;
+    --purple : #330867;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(360deg, var(--blue) 0%, var(--purple) 65.84%);
+}
+
+.header{
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    margin-bottom: 130px;
+}
+
+.nav{
+    display: flex;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background: none;
+    border: none;
+    width: 150px;
+
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: var(--white);
+}
+
+.btn:hover{
+    border-bottom: solid 1px var(--white);
+}
+
+.main{
+    display: flex;
+    padding: 0 150px 0 150px;
+    margin-bottom: 280px;
+}
+
+.content-main{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.web-dev{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.my-name{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+
+    background: linear-gradient(90.72deg, #00FDFF 1.85%, #FF16F6 99.91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    width: 43%;
+}
+
+.my-description{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.05em;
+
+    background: linear-gradient(179.46deg, #B0FFFF 0.47%, #FFFFFF 33.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    width: 50%;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px 0 150px;
+    margin-bottom: 250px;
+}
+
+.about-me{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+    margin-left: 19px;
+}
+
+.about-me-text{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.05em;
+
+    background: linear-gradient(180deg, #B0FFFF 0%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    margin-left: 12px;
+}
+
+.content-about{
+    display: flex;
+}
+
+.line{
+    margin-top: 5px;
+    width: 24px;
+    height: 93px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #B0FFFF 100%);
+    border-radius: 50px;
+}
+
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 150px 0 150px;
+    margin-bottom: 200px;
+}
+
+.main-skills{
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.skill-line{
+    height: 4px;
+    width: 158px;
+    background: linear-gradient(190deg, #FFFFFF 0%, #B0FFFF 100%);
+    border-radius: 50px;
+}
+
+.container-main-skills{
+    margin-bottom: 70px;
+}
+
+.images-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 100%;
+}
+
+.block-siklls{
+    display: flex;
+    justify-content: space-between;
+}
