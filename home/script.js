@@ -1,24 +1,19 @@
-var btnHome = document.getElementById("home")
-var btnProjetos = document.getElementById("projetos")
-var btnContato = document.getElementById("contato")
+//interfaces
+var contentHome = document.getElementById("content-home")
+
+//buttons
+var btnProjetcts = document.getElementById("projetos");
+var btnHome = document.getElementById("home");
+var btnContact = document.getElementById("contato");
+
+btnProjetcts.addEventListener("click",function(){
+    contentHome.setAttribute("hidden",true)
+})
 
 btnHome.addEventListener("click",function(){
-    btnClear()
-    btnHome.classList.add("btn-click")
+    contentHome.removeAttribute("hidden")
 })
 
-btnProjetos.addEventListener("click",function(){
-    btnClear()
-    btnProjetos.classList.add("btn-click")
+btnContact.addEventListener("click",function(){
+    contentHome.setAttribute("hidden",true)
 })
-
-btnContato.addEventListener("click",function(){
-    btnClear()
-    btnContato.classList.add("btn-click")
-})
-
-function btnClear(){
-    btnHome.classList.remove("btn-click")
-    btnProjetos.classList.remove("btn-click")
-    btnContato.classList.remove("btn-click")
-}

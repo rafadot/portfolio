@@ -7,6 +7,7 @@
     <title>Rafael</title>
     <link rel="stylesheet" href="/home/css/style.css">
     <link rel="stylesheet" href="/home/css/event.css">
+    <link rel="shortcut icon" href="/images/star.svg">
 </head>
 <body>
     <header class="header">
@@ -17,43 +18,59 @@
         </nav>
     </header>
 
-    <main class="main">
-        <content class="content-main">
-           <p class="web-dev">Web Developer</p>
-           <p class="my-name">Rafael Aires</p>
-           <p class="my-description">Olá, me chamo Rafael e sou um desenvolvedor backend buscando o full stack. Aqui você vai poder conhecer um pouco mais sobre mim e sobre o meu trabalho :)</p>
-        </content>
-        <img src="/images/image-main.svg" alt="image-main">
-    </main>
-
-    <div class="about-container">
-        <p class="about-me">Sobre mim</p>
-        <content class="content-about">
-            <div class="line"></div>
-            <span class="about-me-text">Olá mundo! Sou estudante de programação e atualmente estou no 4° semestre de Ciência da Computação na Universidade de Fortaleza - UNIFOR. Até agora já tive experiência trabalhando como backend Java utlizando o framework Spring Boot, além de outras tecnologias como Postgresql e etc. Neste momento estou com o intuito de ir além do backend e ingressar na carreira Full Stack! Logo irei começar a trilha de React pelo programa da Alura - Oracle One Next Education.</span>
-        </content>
-    </div>
-
-    <div class="skills-container">
-        <div class="container-main-skills">
-            <p class="main-skills">Main Skills</p>
-            <div class="skill-line"></div>
+    <content class="content-home" id="content-home">
+        <main class="main">
+            <content class="content-main">
+               <p class="web-dev">Web Developer</p>
+               <p class="my-name">Rafael Aires</p>
+               <p class="my-description">Olá, me chamo Rafael e sou um desenvolvedor backend buscando o full stack. Aqui você vai poder conhecer um pouco mais sobre mim e sobre o meu trabalho :)</p>
+            </content>
+            <img class="image-main" src="/images/image-main.svg" alt="image-main">
+        </main>
+    
+        <div class="about-container">
+            <p class="about-me">Sobre mim</p>
+            <content class="content-about">
+                <div class="line"></div>
+                <span class="about-me-text">Olá mundo! Sou estudante de programação e atualmente estou no 4° semestre de Ciência da Computação na Universidade de Fortaleza - UNIFOR. Até agora já tive experiência trabalhando como backend Java utlizando o framework Spring Boot, além de outras tecnologias como Postgresql e etc. Neste momento estou com o intuito de ir além do backend e ingressar na carreira Full Stack! Logo irei começar a trilha de React pelo programa da Alura - Oracle One Next Education.</span>
+            </content>
         </div>
-        <div class="images-skills">
-            <div class="block-siklls">
-                <img src="/images/java-original-wordmark 1.svg" alt="java">
-                <img src="/images/spring-original-wordmark 1.svg" alt="spring">
-                <img src="/images/postgresql-plain-wordmark 1.svg" alt="postgres">
-                <img src="/images/mysql-original-wordmark 1.svg" alt="my-sql">
+    
+        <div class="skills-container">
+            <div class="container-main-skills">
+                <p class="main-skills">Main Skills</p>
+                <div class="skill-line"></div>
             </div>
-            <div class="block-siklls">
-                <img src="/images/heroku-original-wordmark 1.svg" alt="heroku">
-                <img src="/images/googlecloud-original-wordmark 1.svg" alt="google-cloud">
-                <img src="/images/git-original-wordmark 1.svg" alt="git">
-                <img src="/images/github-original-wordmark 1.svg" alt="git-hub">
+            <div class="images-skills">
+                <div class="block-siklls">
+                    <img src="/images/java-original-wordmark 1.svg" alt="java">
+                    <img src="/images/spring-original-wordmark 1.svg" alt="spring">
+                    <img src="/images/postgresql-plain-wordmark 1.svg" alt="postgres">
+                    <img src="/images/mysql-original-wordmark 1.svg" alt="my-sql">
+                </div>
+                <div class="block-siklls">
+                    <img src="/images/heroku-original-wordmark 1.svg" alt="heroku">
+                    <img src="/images/googlecloud-original-wordmark 1.svg" alt="google-cloud">
+                    <img src="/images/git-original-wordmark 1.svg" alt="git">
+                    <img src="/images/github-original-wordmark 1.svg" alt="git-hub">
+                </div>
             </div>
         </div>
-    </div>
+    
+        <footer class="footer">
+            <div class="footer-line"></div>
+            <div class="media">
+                <a href="https://wa.me/5585986255462?text=Ol%C3%A1%2C+vim+pelo+seu+portf%C3%B3lio.+Vamos+trocar+uma+ideia%3F" target="_blank"><img src="/images/whatsapp.svg" alt="whatsapp"></a>
+                <a href="https://github.com/rafadot" target="_blank"><img src="/images/github.svg" alt="git-hub"></a>
+                <a href="https://www.linkedin.com/in/rafael-aires-9b720223b/" target="_blank"><img src="/images/linkedin.svg" alt="linkedin"></a>    
+            </div>
+        </footer>
+    </content>  
 </body>
 </html>
+<script src="/script.js"></script>
 <script src="/home/script.js"></script>
+<script>
+    var btnHome = document.getElementById("home")
+    btnHome.classList.add("btn-click")
+</script>
